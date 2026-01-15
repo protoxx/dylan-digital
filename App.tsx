@@ -294,37 +294,46 @@ const ProductCardSmall = () => {
         <div className="flex justify-between items-start mb-4">
           <div>
             <h4 className="font-display font-bold text-white text-base md:text-lg">
-               <HoverGlitchText text="LE BLUEPRINT (V1)" />
+               <HoverGlitchText text="JE TE VENDS MON SAVOIR" />
             </h4>
-            <p className="font-mono text-[10px] text-gray-500 uppercase mt-1">La Méthode Complète</p>
+            <p className="font-mono text-[10px] text-gray-500 uppercase mt-1">Pack Starter 10€</p>
           </div>
           <div className="text-right">
             <span className="block font-display font-black text-xl md:text-2xl text-cyber-green">10€</span>
-            <span className="font-mono text-[9px] md:text-[10px] text-gray-500 uppercase">PRIX CAFÉ</span>
+            <span className="font-mono text-[9px] md:text-[10px] text-gray-500 uppercase">MINI INVEST</span>
           </div>
         </div>
 
         <p className="text-xs text-gray-400 font-mono mb-4 leading-relaxed">
-          Le prix d'un café pour éviter 3 ans d'erreurs. Apprenez les bases du marketing digital qui séparent ceux qui s'amusent de ceux qui encaissent.
+          Je t’accompagne jusqu’à ta première vente. Tu doutes, tu m’écris, je te réponds. Simple, direct, efficace.
         </p>
 
         <ul className="space-y-2 mb-6">
-          <li className="flex items-center gap-3 text-xs text-gray-500 font-mono">
+          <li className="flex items-center gap-3 text-xs text-gray-300 font-mono">
             <div className="w-1 h-1 bg-cyber-green"></div>
-            Fondations Marketing Solides
+            Coaching express 1:1 (DM/Audio)
           </li>
-          <li className="flex items-center gap-3 text-xs text-gray-500 font-mono">
+          <li className="flex items-center gap-3 text-xs text-gray-300 font-mono">
             <div className="w-1 h-1 bg-cyber-green"></div>
-            Setup Technique Rapide
+            Suivi jusqu’à la première vente
+          </li>
+          <li className="flex items-center gap-3 text-xs text-gray-300 font-mono">
+            <div className="w-1 h-1 bg-cyber-green"></div>
+            Zone Q/R illimitée
           </li>
         </ul>
 
         <div>
-          <button className="w-full py-3 bg-[#1a1a1a] border border-cyber-border text-xs font-bold font-display uppercase text-gray-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 mb-2">
-            ACHETER PACK (10€)
-          </button>
+          <a
+            href="https://shop.beacons.ai/dylan.digitall/c2c767a4-0cca-4437-ae74-44c82a9dceee"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full inline-flex justify-center py-3 bg-[#1a1a1a] border border-cyber-border text-xs font-bold font-display uppercase text-gray-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 mb-2"
+          >
+            ACTIVER LE COACHING (10€)
+          </a>
           <div className="text-center text-[9px] font-mono text-gray-600 uppercase">
-             Garantie "No-Bullshit"
+             Je suis dispo pour toi
           </div>
         </div>
       </div>
@@ -363,9 +372,14 @@ const ProductCardSmall = () => {
         </ul>
 
         <div>
-          <button className="w-full py-3 bg-cyber-green text-black border border-cyber-green text-xs font-bold font-display uppercase hover:bg-cyber-green/90 transition-all duration-200 mb-2">
+          <a
+            href="https://shop.beacons.ai/dylan.digitall/655e4fd3-4f52-4c64-89ba-b1646ac562ea"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full inline-flex justify-center py-3 bg-cyber-green text-black border border-cyber-green text-xs font-bold font-display uppercase hover:bg-cyber-green/90 transition-all duration-200 mb-2"
+          >
             ACTIVER LMH (40€)
-          </button>
+          </a>
           <div className="text-center text-[9px] font-mono text-gray-500 uppercase">
             Livraison instantanée + support
           </div>
