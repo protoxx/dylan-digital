@@ -223,7 +223,7 @@ const ProductCardMain = () => {
              </div>
              <div className="text-right">
                 <span className="block text-gray-400 line-through text-xs md:text-sm">297€</span>
-                <span className="block text-white font-bold text-xl md:text-2xl">97€</span>
+                <span className="block text-white font-bold text-xl md:text-2xl">74,99€</span>
              </div>
           </div>
 
@@ -289,41 +289,86 @@ const ProductCardMain = () => {
 
 const ProductCardSmall = () => {
   return (
-    <div className="border border-cyber-border bg-[#111] p-5 md:p-6 flex flex-col justify-between hover:border-gray-500 transition-colors duration-300 h-full">
-      <div className="flex justify-between items-start mb-4">
-        <div>
-          <h4 className="font-display font-bold text-white text-base md:text-lg">
-             <HoverGlitchText text="LE BLUEPRINT (V1)" />
-          </h4>
-          <p className="font-mono text-[10px] text-gray-500 uppercase mt-1">La Méthode Complète</p>
+    <div className="grid gap-4">
+      <div className="border border-cyber-border bg-[#111] p-5 md:p-6 flex flex-col justify-between hover:border-gray-500 transition-colors duration-300">
+        <div className="flex justify-between items-start mb-4">
+          <div>
+            <h4 className="font-display font-bold text-white text-base md:text-lg">
+               <HoverGlitchText text="LE BLUEPRINT (V1)" />
+            </h4>
+            <p className="font-mono text-[10px] text-gray-500 uppercase mt-1">La Méthode Complète</p>
+          </div>
+          <div className="text-right">
+            <span className="block font-display font-black text-xl md:text-2xl text-cyber-green">10€</span>
+            <span className="font-mono text-[9px] md:text-[10px] text-gray-500 uppercase">PRIX CAFÉ</span>
+          </div>
         </div>
-        <div className="text-right">
-          <span className="block font-display font-black text-xl md:text-2xl text-cyber-green">10€</span>
-          <span className="font-mono text-[9px] md:text-[10px] text-gray-500 uppercase">PRIX CAFÉ</span>
+
+        <p className="text-xs text-gray-400 font-mono mb-4 leading-relaxed">
+          Le prix d'un café pour éviter 3 ans d'erreurs. Apprenez les bases du marketing digital qui séparent ceux qui s'amusent de ceux qui encaissent.
+        </p>
+
+        <ul className="space-y-2 mb-6">
+          <li className="flex items-center gap-3 text-xs text-gray-500 font-mono">
+            <div className="w-1 h-1 bg-cyber-green"></div>
+            Fondations Marketing Solides
+          </li>
+          <li className="flex items-center gap-3 text-xs text-gray-500 font-mono">
+            <div className="w-1 h-1 bg-cyber-green"></div>
+            Setup Technique Rapide
+          </li>
+        </ul>
+
+        <div>
+          <button className="w-full py-3 bg-[#1a1a1a] border border-cyber-border text-xs font-bold font-display uppercase text-gray-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 mb-2">
+            ACHETER PACK (10€)
+          </button>
+          <div className="text-center text-[9px] font-mono text-gray-600 uppercase">
+             Garantie "No-Bullshit"
+          </div>
         </div>
       </div>
 
-      <p className="text-xs text-gray-400 font-mono mb-4 leading-relaxed">
-        Le prix d'un café pour éviter 3 ans d'erreurs. Apprenez les bases du marketing digital qui séparent ceux qui s'amusent de ceux qui encaissent.
-      </p>
+      <div className="border border-cyber-purple/40 bg-[#0e0e0e] p-5 md:p-6 flex flex-col justify-between hover:border-cyber-purple transition-colors duration-300">
+        <div className="flex justify-between items-start mb-4">
+          <div>
+            <h4 className="font-display font-bold text-white text-base md:text-lg">
+              <HoverGlitchText text="LMH" /> / 12 PRODUITS PLR OFFERTS
+            </h4>
+            <p className="font-mono text-[10px] text-cyber-purple uppercase mt-1">+ accompagnement personnalisé</p>
+          </div>
+          <div className="text-right">
+            <span className="block font-display font-black text-xl md:text-2xl text-cyber-green">40€</span>
+            <span className="font-mono text-[9px] md:text-[10px] text-gray-500 uppercase">TICKET EXPRESS</span>
+          </div>
+        </div>
 
-      <ul className="space-y-2 mb-6">
-        <li className="flex items-center gap-3 text-xs text-gray-500 font-mono">
-          <div className="w-1 h-1 bg-cyber-green"></div>
-          Fondations Marketing Solides
-        </li>
-        <li className="flex items-center gap-3 text-xs text-gray-500 font-mono">
-          <div className="w-1 h-1 bg-cyber-green"></div>
-          Setup Technique Rapide
-        </li>
-      </ul>
+        <p className="text-xs text-gray-300 font-mono mb-4 leading-relaxed">
+          Boost immédiat avec 12 produits PLR prêt-à-vendre + coaching personnalisé pour agir dès ce soir.
+        </p>
 
-      <div>
-        <button className="w-full py-3 bg-[#1a1a1a] border border-cyber-border text-xs font-bold font-display uppercase text-gray-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 mb-2">
-          ACHETER PACK (10€)
-        </button>
-        <div className="text-center text-[9px] font-mono text-gray-600 uppercase">
-           Garantie "No-Bullshit"
+        <ul className="space-y-2 mb-6">
+          <li className="flex items-center gap-3 text-xs text-gray-300 font-mono">
+            <div className="w-1.5 h-1.5 bg-cyber-purple"></div>
+            12 produits PLR Offerts (full droits)
+          </li>
+          <li className="flex items-center gap-3 text-xs text-gray-300 font-mono">
+            <div className="w-1.5 h-1.5 bg-cyber-purple"></div>
+            Coaching individuel 30 min
+          </li>
+          <li className="flex items-center gap-3 text-xs text-gray-300 font-mono">
+            <div className="w-1.5 h-1.5 bg-cyber-purple"></div>
+            Plan d’action LMH prêt à copier
+          </li>
+        </ul>
+
+        <div>
+          <button className="w-full py-3 bg-cyber-green text-black border border-cyber-green text-xs font-bold font-display uppercase hover:bg-cyber-green/90 transition-all duration-200 mb-2">
+            ACTIVER LMH (40€)
+          </button>
+          <div className="text-center text-[9px] font-mono text-gray-500 uppercase">
+            Livraison instantanée + support
+          </div>
         </div>
       </div>
     </div>
