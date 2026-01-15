@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import avatarImage from './avatar.png';
 import { 
   Terminal, 
   Download, 
@@ -61,7 +62,7 @@ const Header = () => (
       {/* Avatar Box */}
       <div className="relative w-10 h-10 md:w-12 md:h-12 border-2 border-cyber-green overflow-hidden group shrink-0">
         <img 
-          src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" 
+          src={avatarImage}
           alt="Avatar Dylan Digital" 
           className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
         />
