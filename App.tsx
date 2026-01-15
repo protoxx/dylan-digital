@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import avatarImage from './avatar.png';
+import avatarImage from './avatar.png?imagetools&format=webp&quality=70&width=400&as=src';
 import { 
   Terminal, 
   Download, 
@@ -64,6 +64,10 @@ const Header = () => (
         <img 
           src={avatarImage}
           alt="Avatar Dylan Digital" 
+          width={192}
+          height={192}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
         />
         <div className="absolute inset-0 bg-cyber-green/10 mix-blend-overlay"></div>
