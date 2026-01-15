@@ -228,31 +228,37 @@ const ProductCardMain = () => {
           </div>
 
           <h3 className="font-display text-2xl md:text-3xl font-black uppercase italic tracking-tight mb-4 transform -skew-x-6">
-            <HoverGlitchText text="ACCÉLÉRATEUR" /> <span className="block md:inline text-cyber-purple drop-shadow-[0_0_5px_rgba(208,0,255,0.8)]">KDM + PLR</span>
+            <HoverGlitchText text="KDM" />
+            <span className="block md:inline text-cyber-purple drop-shadow-[0_0_5px_rgba(208,0,255,0.8)]">GROUPE VIP</span>
           </h3>
 
           <p className="font-mono text-xs md:text-sm text-gray-300 mb-6 leading-relaxed border-l-2 border-cyber-purple pl-3">
-            Le bouton "ON" de votre business. Je vous donne mes produits les plus rentables. Vous les revendez, vous gardez <span className="text-white font-bold">100% des profits</span>.
+            ACCOMPAGNEMENT GRATUIT + droit de revente à <span className="text-white font-bold">100%</span>. C’est l’offre phare pour activer ton système sans friction.
           </p>
 
           <div className="space-y-3 mb-8">
             <div className="flex items-center gap-3 text-xs md:text-sm text-gray-400">
               <CheckCircle2 size={16} className="text-cyber-purple shrink-0" />
-              <span>Droit de revente intégral (MRR)</span>
+              <span>Accès direct au Groupe VIP KDM</span>
             </div>
             <div className="flex items-center gap-3 text-xs md:text-sm text-gray-400">
               <CheckCircle2 size={16} className="text-cyber-purple shrink-0" />
-              <span>Accompagnement personnel 1-to-1</span>
+              <span>Accompagnement gratuit et continu</span>
             </div>
             <div className="flex items-center gap-3 text-xs md:text-sm text-gray-400">
               <CheckCircle2 size={16} className="text-cyber-purple shrink-0" />
-              <span>Première vente en temps record</span>
+              <span>Droit de revente à 100% sur tous les assets</span>
             </div>
           </div>
         </div>
 
         <div>
-          <button className="w-full relative group/btn overflow-hidden mb-3 bg-cyber-green h-14 md:h-16 flex items-center justify-center border border-cyber-green hover:bg-cyber-green/90 transition-all shadow-[0_0_15px_rgba(204,255,0,0.3)]">
+          <a
+            href="https://shop.beacons.ai/dylan.digitall/4eb36f48-59df-44e4-82be-11db83d6f370"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full relative group/btn overflow-hidden mb-3 bg-cyber-green h-14 md:h-16 flex items-center justify-center border border-cyber-green hover:bg-cyber-green/90 transition-all shadow-[0_0_15px_rgba(204,255,0,0.3)]"
+          >
             <div className="relative flex items-center gap-2">
               <span className="relative inline-block font-display font-black text-lg md:text-xl text-black uppercase tracking-wider">
                 <span className="relative z-10">ACTIVER LE SYSTÈME</span>
@@ -269,7 +275,7 @@ const ProductCardMain = () => {
             
             {/* Scanline Effect on Hover */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/20 to-transparent translate-y-[-100%] group-hover/btn:translate-y-[100%] transition-transform duration-700 pointer-events-none"></div>
-          </button>
+          </a>
           
           <div className="flex justify-center gap-4 text-[9px] md:text-[10px] font-mono text-gray-500 uppercase">
              <span className="flex items-center gap-1"><Lock size={10} /> Paiement Sécurisé</span>
